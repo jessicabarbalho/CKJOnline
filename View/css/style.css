@@ -1,0 +1,71 @@
+body {
+    background-color: gray;
+}
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 950px;
+}
+#container-border {
+    background-color: red;
+    height: 10px;
+}
+.head {
+    background: url("../images/backgroundTopo.png") repeat scroll 0 0 transparent;
+    height: 140px;
+}
+.head #logo {
+    background: url("../images/logo.png") no-repeat scroll 0 30px transparent;
+    display: block;
+    float: left;
+    height: 80px;
+    padding: 30px;
+    text-indent: -99999px;
+    width: 500px;
+}
+.head .head-login {
+    background: url("../images/loginBg.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 7px;
+    width: 212px;
+}
+.head .head-login a {
+    float: right;
+    margin-right: 15px;
+}
+.head .head-login form {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.head .head-login form .line{
+    padding-left: 10px;
+}
+.search #list-head {
+    background: url("../images/barraBuscaBg.png") no-repeat scroll 0 0 transparent;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 280px;
+    margin-bottom: 0;
+    width: 340px;
+}
+.search form {
+    background: url("../images/barraBuscaBg.png") repeat scroll 0 0 transparent;
+    margin-left: 163px;
+    width: 617px;
+    height: 30px;
+}
+.search #list-head .icon-head {
+    float: left;
+    padding: 10px 15px;
+}
+.search #list-head .link-icon-head {
+    color: white;
+    text-decoration: none;
+}
+.slideshow{
+    padding: 0 165px;
+    margin-top: 20px;
+}

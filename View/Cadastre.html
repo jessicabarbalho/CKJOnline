@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro</title>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="cadastro.js"></script>
+	</head>
+
+	<body>
+		<form action="cadastrar.php" method="POST">
+		
+			<fieldset> 
+				<legend>Adicionar Produto</legend> 
+			
+				<label for "label-name">Nome:</label> 
+				<input type="text" name="name" id="label-name"> 
+
+				<label for "label-artist">Artista:</label> 
+				<input type="text" name="artist" id="label-artist"> 
+
+				
+				<!-- Código php para pegar os tipos ??? -->
+				<label for "label-type">Tipo:</label> 
+				<select name="select">
+					<option value="value1">CD</option>   
+  					<option value="value2" selected>DVD</option>  
+  					<option value="value3">Outros</option> 
+  				</select>
+			
+				<label for "label-country">País de Origem:</label> 
+				<input type="text" name="country" id="label-country"> 
+
+				<label for "label-quantity">Quantidade:</label> 
+				<input type="text" name="quantity" id="label-quantity"> 
+
+				<label for "label-amount">Valor:</label> 
+				<input type="text" name="amount" id="label-amount"> 
+			
+				<label for="label-description">Descrição:</label>
+				<textarea name="mensagem" id="label-descritpion" cols="50" rows="30"></textarea>
+
+				<fieldset>
+					<legend>Fotos</legend>
+					<input type="text" name="photo">
+					<input type="submit" value="Upload">
+
+					<input type="text" name="photo">
+					<input type="submit" value="Upload">
+
+					<a href="">Adicionar Mais</a>
+				</fieldset>
+
+				<input type="submit" value="Adicionar"> 
+				<input type="reset" value="Cancelar"> 
+			</fieldset>
+		</form>
+	</body>
+</html>
